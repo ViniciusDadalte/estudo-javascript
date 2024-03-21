@@ -1,6 +1,6 @@
 let number1 = document.getElementById('myH1');
-let number2 = document.getElementById('myH1');
-let number3 = document.getElementById('myH1');
+let number2 = document.getElementById('myH2');
+let number3 = document.getElementById('myH3');
 
 const maxNum = 0;
 const minNum = 7;
