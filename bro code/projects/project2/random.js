@@ -6,6 +6,6 @@ let randomNum;
 
 function randomNumber () 
 {
-  randomNum = Math.floor(Math.random() * maxNum) + minNum;
+  randomNum = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
   number.textContent = `${randomNum}`;
 }
