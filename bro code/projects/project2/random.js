@@ -4,8 +4,8 @@ let randomNum;
 
 let number = document.getElementById('myH1');
 
-function randomNumber() 
+function randomNumber () 
 {
   randomNum = Math.floor(Math.random() * maxNum) + minNum;
-  number.innerHTML = `${randomNum}`;
+  number.textContent = `${randomNum}`;
 }
