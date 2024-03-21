@@ -1,5 +1,5 @@
 let content = document.getElementById('contentLabel');
-const count = 0;
+let count = 0;
 
 function Decrease () 
 {
@@ -9,7 +9,7 @@ function Decrease ()
 
 function Reset () 
 {
-  content.innerText = count;
+  content.innerHTML = count;
 }
 
 function Increase () 
