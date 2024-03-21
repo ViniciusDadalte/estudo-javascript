@@ -1,4 +1,5 @@
 let content = document.getElementById('contentLabel');
+Number(content);
 count = 0;
 
 function Decrease () 
