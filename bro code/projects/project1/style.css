@@ -29,7 +29,6 @@ label {
 }
 
 button {
-  display: inline-block;
   background-color: #3e3ef3;
   width: 100px;
   height: 25px;
