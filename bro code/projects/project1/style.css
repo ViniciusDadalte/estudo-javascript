@@ -18,14 +18,13 @@ label {
 }
 
 div {
-  display: block;
   margin: auto;
 }
 
 button {
   background-color: #3e3ef3;
-  width: 150px;
-  height: 20px;
+  width: 100px;
+  height: 25px;
   margin-left: 20px;
   border: none;
   border-radius: 15px;
