@@ -9,7 +9,7 @@ function Decrease ()
 
 function Reset () 
 {
-  content.innerHTML = count;
+  content.innerText = count;
 }
 
 function Increase () 
