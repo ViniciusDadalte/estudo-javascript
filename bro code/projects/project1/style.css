@@ -12,9 +12,6 @@ body {
 
 main {
   position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: blue;
 }
 
 div#content {
@@ -23,7 +20,6 @@ div#content {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-color: grey;
 }
 
 label {
