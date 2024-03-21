@@ -1,11 +1,11 @@
-const max = 1;
-const min = 6;
+const maxNum = 1;
+const minNum = 6;
 let randomNum;
 
 let number = document.getElementById('myH1');
 
 function randomNumber() 
 {
-  randomNum = Math.floor(Math.random() * max) + min;
+  randomNum = Math.floor(Math.random() * maxNum) + minNum;
   number.innerHTML = `${randomNum}`;
 }
