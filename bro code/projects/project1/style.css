@@ -30,6 +30,7 @@ label {
 
 button {
   display: inline-block;
+  text-align: center;
   background-color: #3e3ef3;
   min-width: 100px;
   height: 25px;
