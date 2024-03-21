@@ -3,7 +3,7 @@ count = 0;
 
 function Decrease () 
 {
-  content.innerHTML = count - 1;
+  content.innerHTML += count - 1;
 }
 
 function Reset () 
@@ -13,5 +13,5 @@ function Reset ()
 
 function Increase () 
 {
-  content.innerHTML = count + 1;
+  content.innerHTML += count + 1;
 }
