@@ -31,9 +31,9 @@ label {
 button {
   display: inline-block;
   background-color: #3e3ef3;
-  min-width: 100px; /* Alteração aqui */
+  min-width: 100px;
   height: 25px;
-  margin-left: 5px;
+  padding: 20px;
   border: none;
   border-radius: 15px;
 }
