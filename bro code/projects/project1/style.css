@@ -8,13 +8,6 @@
 
 body {
   background-color: #fff;
-  text-align: center;
-}
-
-label {
-  font-size: 2em;
-  display: block;
-  margin: auto;
 }
 
 .container {
@@ -31,6 +24,9 @@ label {
   text-align: center;
 }
 
+label {
+  font-size: 2em;
+}
 
 button {
   display: inline-block;
