@@ -1,8 +1,8 @@
+let number = document.getElementById('myH1');
+
 const maxNum = 1;
 const minNum = 6;
 let randomNum;
-
-let number = document.getElementById('myH1');
 
 function randomNumber () 
 {
