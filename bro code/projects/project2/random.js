@@ -1,7 +1,7 @@
 let number = document.getElementById('myH1');
 
-const maxNum = 1;
-const minNum = 6;
+const maxNum = 0;
+const minNum = 7;
 let randomNum;
 
 function randomNumber () 
