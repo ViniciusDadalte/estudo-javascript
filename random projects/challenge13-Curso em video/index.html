@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio-13</title>
+</head>
+<body>
+    <main>
+        <section>
+
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" minlength="0" maxlength="20">
+            </div>
+            
+            <div>
+                <label for="inota1">Primeira nota:</label>
+                <input type="number" name="nota1" id="inota1" min="0" max="10">
+            </div>
+            
+            <div>
+                <label for="inota2">Segunda nota:</label>
+                <input type="number" name="nota2" id="inota2" min="0" max="10">
+            </div>
+            
+            <button onclick="Media()">Ver media</button>
+
+            <div id="media">
+                <h2 id="myH2"></h2>
+                <h3 id="myH3"></h3>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
