@@ -13,7 +13,7 @@ const ganhador = function (avgEquipe1, avgEquipe2)
   {
     console.log(`A equipe1 ganhou  ${avgEquipe1} vs. ${avgEquipe2}`);
   }
-  else if(avgEquipe2 => 2 * avgEquipe1)
+  else if (avgEquipe2 => 2 * avgEquipe1)
   {
     console.log(`A equipe2 ganhou  ${avgEquipe2} vs. ${avgEquipe1}`);
   }
@@ -23,4 +23,4 @@ const ganhador = function (avgEquipe1, avgEquipe2)
   }
 }
 
-ganhador(scoreEquipe1, scoreEquipe2);
+ganhador(10, 20);
