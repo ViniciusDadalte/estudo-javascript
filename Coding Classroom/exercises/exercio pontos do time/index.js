@@ -5,6 +5,8 @@ const media = (a,b,c) => (a + b + c) / 3;
 let scoreEquipe1 = media(44, 23, 71);
 let scoreEquipe2 = media(65, 54, 49);
 
+console.log(scoreEquipe1, scoreEquipe2);
+
 const ganhador = function (avgEquipe1, avgEquipe2)
 {
   if (avgEquipe1 => 2 * avgEquipe2)
@@ -21,4 +23,4 @@ const ganhador = function (avgEquipe1, avgEquipe2)
   }
 }
 
-ganhador(scoreEquipe1, scoreEquipe2)
+ganhador(scoreEquipe1, scoreEquipe2);
