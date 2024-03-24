@@ -1,6 +1,6 @@
 'use strict';
 
-const media = (a,b,c) => (a + b + c) / 3;
+const media = (a, b, c) => (a + b + c) / 3;
 
 let scoreEquipe1 = media(44, 23, 71);
 let scoreEquipe2 = media(65, 54, 49);
