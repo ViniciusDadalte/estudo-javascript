@@ -8,4 +8,6 @@ const idade1 = calcIdade(nascimentos[0]);
 const idade2 = calcIdade(nascimentos[1]);
 const idade3 = calcIdade(nascimentos[2]);
 
-console.log(idade1, idade2, idade3);
+const idades = [idade1, idade2, idade3];
+
+console.log(idades);
