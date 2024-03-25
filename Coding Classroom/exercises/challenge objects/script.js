@@ -2,7 +2,6 @@ const mark = {
   nome: 'Mark Zuquerberg',
   massa: 78.90,
   altura: 1.8,
-  
   calcBMI: function() {
     this.bmi = this.massa / this.altura ** 2;
     return this.bmi;
@@ -13,7 +12,6 @@ const john = {
   nome: 'John Deacon',
   massa: 80,
   altura: 2.0,
-  
   calcBMI: function() {
     this.bmi = this.massa / this.altura ** 2;
     return this.bmi;
