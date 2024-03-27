@@ -16,3 +16,8 @@ for (let i = 0; i < bills.length; i++)
 }
 
 console.log(bills, tips, totals);
+
+const calcAvarge = function (arr)
+{
+  
+}
